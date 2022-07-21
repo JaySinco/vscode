@@ -3,4 +3,4 @@
 !.gitattributes
 !settings.json
 !extensions.json
-!sync.sh
+!config.sh

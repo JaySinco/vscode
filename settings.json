@@ -8,12 +8,6 @@
     "files.insertFinalNewline": false,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "files.exclude": {
-        "deps/*/*/*/*/*": true,
-    },
-    "files.watcherExclude": {
-        "{bin,out,deps}": true,
-    },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "explorer.confirmDelete": false,

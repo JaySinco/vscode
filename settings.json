@@ -15,6 +15,8 @@
     "extensions.ignoreRecommendations": true,
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.intelliSenseEngine": "Disabled",
+    "vim.useSystemClipboard": true,
+    "vim.replaceWithRegister": true,
     "vsicons.dontShowNewVersionMessage": true,
     "git.autofetch": false,
     "git.confirmSync": false,

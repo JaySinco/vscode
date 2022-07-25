@@ -16,8 +16,6 @@
     "extensions.ignoreRecommendations": true,
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.intelliSenseEngine": "Disabled",
-    "vim.useSystemClipboard": true,
-    "vim.replaceWithRegister": true,
     "vsicons.dontShowNewVersionMessage": true,
     "git.autofetch": false,
     "git.confirmSync": false,
@@ -25,5 +23,106 @@
         "--completion-style=detailed",
         "--function-arg-placeholders=0",
         "--header-insertion=never",
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.replaceWithRegister": true,
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-o>": false,
+        "<C-w>": false,
+    },
+    "vim.leader": ",",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "t"
+            ],
+            "commands": [
+                "workbench.files.action.showActiveFileInExplorer",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "commands": [
+                "actions.find",
+            ]
+        },
+        {
+            "before": [
+                "K",
+            ],
+            "commands": [
+                "editor.action.showHover",
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition",
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "c"
+            ],
+            "commands": [
+                "editor.action.revealDeclaration",
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "references-view.findReferences",
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine",
+            ]
+        },
     ],
 }

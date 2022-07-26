@@ -28,7 +28,7 @@
     "vim.replaceWithRegister": true,
     "vim.useCtrlKeys": true,
     "vim.handleKeys": {
-        "<C-o>": false,
+        "<C-o>": true,
         "<C-w>": false,
     },
     "vim.leader": ",",
@@ -40,6 +40,24 @@
             ],
             "commands": [
                 "workbench.action.files.save",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "x"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.quickOpen",
             ]
         },
         {

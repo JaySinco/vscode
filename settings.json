@@ -22,7 +22,7 @@
     "clangd.arguments": [
         "--completion-style=detailed",
         "--function-arg-placeholders=0",
-        "--header-insertion=never",
+        "--header-insertion=never"
     ],
     "vim.useSystemClipboard": true,
     "vim.replaceWithRegister": true,
@@ -30,7 +30,7 @@
     "vim.handleKeys": {
         "<C-o>": true,
         "<C-w>": false,
-        "<C-c>": false,
+        "<C-c>": false
     },
     "vim.leader": ",",
     "vim.normalModeKeyBindings": [
@@ -40,7 +40,7 @@
                 "w"
             ],
             "commands": [
-                "workbench.action.files.save",
+                "workbench.action.files.save"
             ]
         },
         {
@@ -49,7 +49,7 @@
                 "x"
             ],
             "commands": [
-                "workbench.action.closeActiveEditor",
+                "workbench.action.closeActiveEditor"
             ]
         },
         {
@@ -58,7 +58,7 @@
                 "p"
             ],
             "commands": [
-                "workbench.action.quickOpen",
+                "workbench.action.quickOpen"
             ]
         },
         {
@@ -67,7 +67,7 @@
                 "t"
             ],
             "commands": [
-                "workbench.files.action.showActiveFileInExplorer",
+                "workbench.files.action.showActiveFileInExplorer"
             ]
         },
         {
@@ -76,7 +76,7 @@
                 "b"
             ],
             "commands": [
-                "workbench.action.toggleSidebarVisibility",
+                "workbench.action.toggleSidebarVisibility"
             ]
         },
         {
@@ -85,7 +85,7 @@
                 "c"
             ],
             "commands": [
-                "editor.action.commentLine",
+                "editor.action.commentLine"
             ]
         },
         {
@@ -94,15 +94,15 @@
                 "f"
             ],
             "commands": [
-                "actions.find",
+                "actions.find"
             ]
         },
         {
             "before": [
-                "K",
+                "K"
             ],
             "commands": [
-                "editor.action.showHover",
+                "editor.action.showHover"
             ]
         },
         {
@@ -111,7 +111,7 @@
                 "d"
             ],
             "commands": [
-                "editor.action.revealDefinition",
+                "editor.action.revealDefinition"
             ]
         },
         {
@@ -120,7 +120,7 @@
                 "c"
             ],
             "commands": [
-                "editor.action.revealDeclaration",
+                "editor.action.revealDeclaration"
             ]
         },
         {
@@ -129,9 +129,9 @@
                 "r"
             ],
             "commands": [
-                "references-view.findReferences",
+                "references-view.findReferences"
             ]
-        },
+        }
     ],
     "vim.visualModeKeyBindings": [
         {
@@ -140,8 +140,8 @@
                 "c"
             ],
             "commands": [
-                "editor.action.commentLine",
+                "editor.action.commentLine"
             ]
-        },
-    ],
+        }
+    ]
 }

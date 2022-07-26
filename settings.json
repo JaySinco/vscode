@@ -30,6 +30,7 @@
     "vim.handleKeys": {
         "<C-o>": true,
         "<C-w>": false,
+        "<C-c>": false,
     },
     "vim.leader": ",",
     "vim.normalModeKeyBindings": [

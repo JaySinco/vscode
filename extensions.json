@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "eamodio.gitlens",
+        "gurumukhi.selected-lines-count",
         "jeff-hykin.better-cpp-syntax",
         "jeff-hykin.better-dockerfile-syntax",
         "jeff-hykin.better-shellscript-syntax",

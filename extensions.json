@@ -10,7 +10,6 @@
         "ms-vscode.cpptools",
         "ms-vscode.hexeditor",
         "twxs.cmake",
-        "vscode-icons-team.vscode-icons",
-        "vscodevim.vim"
+        "vscode-icons-team.vscode-icons"
     ]
 }

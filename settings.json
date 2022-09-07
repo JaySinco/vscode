@@ -18,6 +18,7 @@
     "vsicons.dontShowNewVersionMessage": true,
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.intelliSenseEngine": "Disabled",
+    "python.formatting.provider": "none",
     "git.autofetch": false,
     "git.confirmSync": false,
     "gitlens.currentLine.enabled": false,
@@ -27,5 +28,5 @@
         "--completion-style=detailed",
         "--function-arg-placeholders=0",
         "--header-insertion=never"
-    ]
+    ],
 }

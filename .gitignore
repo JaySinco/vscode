@@ -2,7 +2,5 @@
 !.gitignore
 !.gitattributes
 !settings.json
-!extensions.json
-!config.sh
 !keybindings.json
 !README.md

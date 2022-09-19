@@ -10,6 +10,7 @@
     "files.insertFinalNewline": false,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "terminal.external.windowsExec": "C:\\Program Files\\Alacritty\\alacritty.exe",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "explorer.confirmDelete": false,

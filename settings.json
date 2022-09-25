@@ -17,6 +17,7 @@
     "explorer.autoReveal": false,
     "extensions.ignoreRecommendations": true,
     "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
     "vsicons.dontShowNewVersionMessage": true,
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.intelliSenseEngine": "Disabled",

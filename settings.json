@@ -11,7 +11,22 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "terminal.external.windowsExec": "C:\\Program Files\\Alacritty\\alacritty.exe",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "MSYS2 Bash": {
+            "path": [
+                "C:\\msys64\\usr\\bin\\bash.exe"
+            ],
+            "args": [
+                "--login"
+            ],
+            "env": {
+                "CHERE_INVOKING": "1",
+                "MSYSTEM": "MINGW64",
+                "MSYS2_PATH_TYPE": "inherit"
+            }
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "MSYS2 Bash",
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
@@ -21,7 +36,6 @@
     "vsicons.dontShowNewVersionMessage": true,
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.intelliSenseEngine": "Disabled",
-    "python.formatting.provider": "none",
     "git.autofetch": false,
     "git.confirmSync": false,
     "gitlens.currentLine.enabled": false,

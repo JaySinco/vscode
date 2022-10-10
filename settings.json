@@ -41,6 +41,7 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
+    "python.formatting.provider": "none",
     "clangd.arguments": [
         "--completion-style=detailed",
         "--function-arg-placeholders=0",

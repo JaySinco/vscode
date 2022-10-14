@@ -10,20 +10,19 @@
     "files.insertFinalNewline": false,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "terminal.external.windowsExec": "C:\\Program Files\\Alacritty\\alacritty.exe",
+    "terminal.external.windowsExec": "%USERPROFILE%/ProgramFiles/Microsoft.WindowsTerminal/WindowsTerminal.exe",
     "terminal.integrated.profiles.windows": {
         "MSYS2 Bash": {
             "path": [
-                "C:\\msys64\\usr\\bin\\bash.exe"
+                "C:/msys64/msys2_shell.cmd"
             ],
             "args": [
-                "--login"
+                "-defterm",
+                "-here",
+                "-no-start",
+                "-mingw64",
+                "-use-full-path"
             ],
-            "env": {
-                "CHERE_INVOKING": "1",
-                "MSYSTEM": "MINGW64",
-                "MSYS2_PATH_TYPE": "inherit"
-            }
         },
     },
     "terminal.integrated.defaultProfile.windows": "MSYS2 Bash",

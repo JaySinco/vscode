@@ -46,4 +46,5 @@
         "--function-arg-placeholders=0",
         "--header-insertion=never"
     ],
+    "hlsl.openDocOnSide": false,
 }

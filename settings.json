@@ -2,7 +2,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "vscode-icons",
     "window.newWindowDimensions": "offset",
-    "editor.fontFamily": "'FiraMono NF'",
+    "editor.fontFamily": "'FiraMono Nerd Font'",
     "editor.fontLigatures": false,
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
